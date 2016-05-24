@@ -1,0 +1,71 @@
+<center>
+<table border="0" ccellpadding="0" cellspacing="0">
+<tr>
+<td id="VU" height=290 width=430>
+<img src="http://scienceblogs.com/laelaps/wp-content/blogs.dir/435/files/2012/04/i-ac8f30023a8b9af54442fe91696c764f-pandas-compared-thumb-500x220-46953.jpg"
+name='slideshow' width=430 height=290>
+</td>
+</tr>
+</table>
+</center>
+
+
+
+
+
+
+
+
+
+<script>
+// set sideshowspeed (milliseconds)
+var slideshsowspeed =500;
+ 
+// Duration of crossfade (seconds)
+var crossFadeduration = 3;
+
+//specify the image files
+var pic= new array();
+
+//to add more images, just continue
+// the pattern, adding to the new array below
+pic[0]='http://f.ptcdn.info/413/010/000/1380643189-image-o.jpg'
+pic[1]='https://lh3.googleusercontent.com/proxy/RbgN7U-dm6WDsy6twfPHMO3oOjGaHvc_kXbA24tBLShN60smNG9UKSYdc4-T8j2FJgeQA0KwXSE6xJOIJM6cAw=w426-h240-n'
+pic[2]='https://lh3.googleusercontent.com/-lv1vg4HzaZw/TXqIBKLc5fI/AAAAAAAABlU/X8281hPhQ7k/w1200-h630-p-nu/panda_wolong_01.jpg'
+pic[3]='https://pbs.twimg.com/profile_images/561158161747681280/7oWdVsvA_400x400.jpeg'
+pic[4]='http://data.whicdn.com/images/165994781/large.jpg'
+pic[5]='https://s-media-cache-ak0.pinimg.com/236x/69/76/ab/6976ab34041dc5b581dcac53d8d638b6.jpg'
+pic[6]='http://www.zooborns.com/.a/6a010535647bf3970b01bb0876398d970d-800wi'
+
+   
+// do not edit anything below this line
+var t;
+var j = 0;
+var p = pic.length;
+var preload= new array();
+for(i = 0; i < p; i++) {
+preLoad[i] = new image();
+preLoad[i].src = pic[i]
+}
+function runslideshow() {
+if 9document.all) {
+document.images.slideshow.style.filter="blendTrans(duration=2)";
+document.images.slideshow.style.filter="blendTrans(duration=crossFadeDuration)";
+document.images.slideshow.style.filter.blendTrans.Apply();
+}
+document.images.slideshow.src = preLoas[j].src;
+if (document.images.slideshows.fiters.blendtrans.play();
+}
+j = j + 1;
+if (j > (p - 1))= 0;
+t = setTimeout('runSideShowShow()', sideshowspeed);
+}
+window.onload=runSideShow;
+
+
+
+
+
+
+
+</script>
