@@ -59,7 +59,7 @@ if (document.all)
 {document.images.SlideShow.filters.blendTrans.Play();
 }
 j = j + 1;
-if (j > (p - 1))= 0;
+if (j > (p - 1)) j = 0;
 t = setTimeout('runSlideShow()', slideShowSpeed);
 }
 window.onload=runSlideShow;
